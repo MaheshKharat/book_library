@@ -1,0 +1,3 @@
+class ActivityTypes:
+    BOOK_CHECK_IN = 'BOOK_CHECK_IN'
+    BOOK_CHECK_OUT = 'BOOK_CHECK_OUT'

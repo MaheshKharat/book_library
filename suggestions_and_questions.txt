@@ -1,0 +1,29 @@
+  Add Authentication Layer
+
+  By using authentication you can authenticate user for each request.
+
+  Process for Authenticate user
+
+  We will add new api in it that is /auth
+
+  1. We will create JWT token while user login/register.
+  2. And for every request user should sent that JWT token in headers to the server.
+  3. By using that token we will be able to authenticate that user.
+
+  I would suggest Jwt token or itsdangerous packages for achiving authenticate user.
+
+
+  Project Improvement, Questions & Requiremnts
+
+  Authorization:
+
+  1. We will need to find out how many users will access the system and whats the roles of them.
+  2, We wiil define permission accordingly.
+
+  Questions:
+
+  1. How to track book if user not checked in it?
+  2. If any user want a book that not present in library?
+  3. If user lost book?
+  4. What's the time limit for book checkin?
+  5. Library staff management?
